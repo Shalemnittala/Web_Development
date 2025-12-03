@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("/MidTerm_Project/images/bats.gif") repeat;
+}
+
+.web-site {
+    width: 50rem; 
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 10px 13px #000;
+}
+
+header {
+    background: linear-gradient(to right, white, orange, #000);
+    color: black;
+    padding-top: 10px; 
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+}
+
+
+header .page-header-content{
+    display: flex;
+    gap: 10px; 
+}
+
+header .site-title-container {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    line-height: 0.625rem;
+    margin: 0;
+}
+
+
+header .icon-image img{
+    height: 70px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 1.875rem; 
+}
+
+header .site-slogan {
+    font-size: 18px;
+    padding: 0;
+}
+
+
+nav ul.main-nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.main-nav-list li{
+    position: relative;
+}
+
+nav ul.main-nav-list li a{
+    display: block;
+    padding: 12px 35px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul.main-nav-list li a:hover{
+    background-color: #808080;
+}
+
+nav ul.main-nav-list li.active a{
+    color: #c60;
+}
+
+
+nav ul.sub-menu-list{
+    list-style: none;
+    display: none;
+    position: absolute;
+    width: 120px;
+    text-align: center;
+    background-color: #444;
+    padding: 0;
+}
+
+nav ul.sub-menu-list li a{
+    padding: 10px;
+} 
+
+nav ul.main-nav-list li:hover > ul.sub-menu-list{
+    display: block;
+    background-color: #000;
+}
+.navigation-sidebar{
+    margin-top: 30px;
+}
+nav ul.side-nav-list{
+    list-style: none;
+    justify-content: left;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+nav ul.side-nav-list li{
+    position: relative;
+    border: 3px solid #000;
+    margin: 4px 40px 0 40px;
+    background-color: orange;
+}
+
+nav ul.side-nav-list li a{
+    display: block;
+    padding: 4px 7px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul.side-nav-list li a:hover{
+    color: green;
+}
+
+
+main .page-layout{
+    display: flex;
+}
+
+
+
+.content img{
+    height: 130px;
+    width: 130px;
+}
+
+.home-content a{
+    color: orange;
+}
+
+.home-content a:hover{
+    color: green;
+}
+
+.home-content h1{
+    text-align: center;
+}
+
+/* Renamed from .content2 (Product List Page) */
+.main-product-content a{
+    color: black;
+}
+
+.main-product-content table{
+    width: 140%;
+    border-collapse: collapse;
+    margin: 10px;
+    border-spacing: 40px;
+}
+
+.main-product-content thead{
+    color: grey;
+    margin-bottom: 13px;
+    text-align: left;
+}
+
+.main-product-content td:nth-child(1){
+    vertical-align: top;
+}
+
+.main-product-content th:nth-child(3){
+    text-align: right;
+}
+
+.main-product-content td:nth-child(2){
+    background-color: rgb(247, 215, 155);
+    text-align: right;
+}
+
+.product-detail-layout{
+    display: flex;
+}
+
+.cat-info-flex{
+    display: flex;
+    gap: 30px;
+}
+
+.related-items{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: rgb(247, 215, 155);
+}
+
+.related-items img{
+    width: 70px;
+    height: 80px;
+}
+
+.related-items a{
+    color: #000;
+}
+
+.related-items a:hover{
+    color: green;
+}
+
+.related-items table{
+    text-align: center;
+    border: 2px solid black;
+    width: 100%;
+}
+.intro-text{
+        font-size: 25px;
+        font-weight: bold;
+}
+.intro-text::first-letter {
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+
+  footer {
+    text-align: center;
+    border-top: 2px solid #000;
+    background: linear-gradient(to right, black, orange, white);
+    color: black;
+    padding: 5px 0 5px 5px; 
+}
